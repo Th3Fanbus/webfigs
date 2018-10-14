@@ -1,0 +1,19 @@
+body{
+	background-color: #FFFFFF;
+	color: #000000;
+    margin: 0px;
+    overflow: hidden;
+}
+#demo{
+	background-color: #FFFFFF;
+}
+#canvas{
+	border: 1px solid #000000;
+}
+#vars{
+    background-color: #FFFFFF;
+    width: 300px;
+    float: left;
+    margin-left: 10px;
+    margin-top: -10px;
+}

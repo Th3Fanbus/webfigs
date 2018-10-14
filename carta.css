@@ -1,0 +1,44 @@
+body, h1 {
+    font-family: "Times New Roman", Times, serif;
+}
+body, html {
+    height: 100%;
+}
+body {
+    background-image: url('background.jpg');
+}
+div {
+}.textContainer{
+    margin: 30px 10px 30px 50px;
+    font-size: 20px;
+    text-align: left;
+    color: black;
+}.framed {
+    border-style: solid;
+}
+h1 {
+    text-align: right;
+    font-size: 60px;
+    color: blue;
+}
+hr { 
+    display: block;
+    border-width: 10px;
+    border-color: blue;
+}
+#marqueeScrollLR {
+    width: 600px;
+    font-size: 40px;
+    position: relative;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    animation-timing-function: ease-in-out;
+    animation-name: marqueeLR;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes marqueeLR {
+    0%   {left:0px; top:0px;}
+    50%  {left:200px; top:0px;}
+    100% {left:0px; top:0px;}
+}

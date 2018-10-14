@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title id="name">Calculator</title>
+		<script src="calc.js"></script>
+		<!--
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+		-->
+		<script src="jquery-2.2.0.js"></script>
+	</head>
+	<body onload="">
+		<div>
+			<p><input type="text" id="l1"> <button type="button" onclick="erase(1);">C</button> <button type="button" onclick="ans(1);">ANS</button></p>
+			<p><input type="text" id="l2"> <button type="button" onclick="erase(2);">C</button> <button type="button" onclick="ans(2);">ANS</button></p>
+			<p><input type="text" id="result" readonly="readonly"> <span id="bodh">d</span></p>
+		</div>
+		<div>
+			<p>
+				<button type="button" onclick="operate('+');">+</button>
+				<button type="button" onclick="operate('-');">-</button>
+				<button type="button" onclick="operate('*');">*</button>
+				<button type="button" onclick="operate('/');">/</button>
+				<button type="button" onclick="erase(0);">AC</button>
+			</p>
+		</div>
+		<div>
+			<p>
+				<button type="button" onclick="newbase(2);">Bin</button>
+				<button type="button" onclick="newbase(8);">Oct</button>
+				<button type="button" onclick="newbase(10);">Dec</button>
+				<button type="button" onclick="newbase(16);">Hex</button>
+			</p>
+		</div>
+		EOF
+	</body>
+</html> 
